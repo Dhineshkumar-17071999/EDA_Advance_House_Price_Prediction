@@ -8,6 +8,7 @@
     - Tools and libraries used for EDA.
 
 2. Data Collection and Importing:
+   
     Before starting with EDA, you first need to acquire the data from various sources like CSV, Excel, SQL databases, or APIs.
     - Data Sources: The data can come from multiple sources such as:
         - Flat files (e.g., CSV, JSON, Excel)
@@ -22,6 +23,7 @@
         - Checking data types and basic structure.
 
 3. Data Cleaning:
+   
     Once the data is imported, it is important to clean it before analysis. Data cleaning refers to the process of handling issues like missing values, incorrect data types, and duplicates.
     - 3.1. Handling Missing Data
         - Types of Missingness: Missing data can occur in different forms:
@@ -46,7 +48,8 @@
             - IQR (Interquartile Range): Outliers are typically defined as values 1.5 times above or below the IQR.
             - Visualization Methods: Box plots and scatter plots are often used to detect outliers visually.
 
-4. Data Transformations
+4. Data Transformations:
+   
     After cleaning the data, the next step is to transform it into a form that is easier to analyze.
     - 4.1. Normalization/Standardization
         - Normalization: Scaling data between 0 and 1. Used for features that require this, such as those used in neural networks.
@@ -74,6 +77,7 @@
     - Skewness and kurtosis.
 
 6. Univariate Analysis (Analyzing one variable at a time)
+   
     Univariate analysis focuses on analyzing one variable at a time. It helps understand the distribution, central tendency, and spread of a feature.
     - 6.1. For Numerical Data
         - Summary Statistics:
@@ -99,6 +103,7 @@
     - Categorical vs. Categorical: Cross-tabulation, Stacked bar charts.
 
 8. Multivariate Analysis
+   
     Multivariate analysis involves the exploration of relationships between multiple variables simultaneously.
     - 8.1. Numerical vs. Numerical
         - Correlation: Pearson correlation coefficient measures the linear relationship between two continuous variables. Values range from -1 (perfect negative correlation) to +1 (perfect positive correlation).
@@ -117,6 +122,7 @@
         - ANOVA (Analysis of Variance): Tests if the means of different groups are significantly different.
 
 9. Feature Engineering
+    
     Feature engineering is the process of creating new features or transforming existing features to better represent the underlying structure of the data.
     - 9.1. Creating Interaction Terms
         - Polynomial Features: Interaction terms can capture non-linear relationships between variables. These are often useful in linear models.
@@ -130,6 +136,7 @@
     - Handling categorical variables using encoding techniques (One-Hot Encoding, Label Encoding).
 
 10. Dimensionality Reduction
+    
     When you have a large number of features, dimensionality reduction techniques help reduce the dataset’s complexity while retaining its essential structure.
     - 10.1. Principal Component Analysis (PCA)
         - PCA is a technique used to reduce the dimensionality of numerical data by transforming the data into a set of orthogonal (uncorrelated) features known as principal components.
@@ -139,6 +146,7 @@
         - UMAP (Uniform Manifold Approximation and Projection): Similar to t-SNE, but often faster and better at preserving global structure.
 
 11. Visualizing Relationships
+    
     Visualization is an integral part of EDA. Some common types of plots used in EDA include:
     - Histograms: Show the frequency distribution of a single variable.
     - Box Plots: Highlight the distribution and outliers.
@@ -150,6 +158,7 @@
     - Adding interactivity to visualizations (optional, using Plotly).
 
 12. Hypothesis Testing
+    
     EDA also involves validating hypotheses about your data. Some common tests include:
     - T-tests: Compare the means of two groups.
     - ANOVA (Analysis of Variance): Compare the means of more than two groups.
@@ -157,6 +166,7 @@
     - Shapiro-Wilk Test: Test for normality in a dataset.
 
 13. Identifying Patterns, Trends, and Relationships
+    
     EDA helps you uncover:
     - Patterns: Recurring behaviors in your data.
     - Trends: Long-term increase or decrease in the data.
@@ -164,11 +174,13 @@
     - Anomalies: Data points that do not fit the usual pattern, often outliers.
 
 14. Data Summarization
+    
     Finally, summarizing the dataset helps in understanding the key findings from EDA:
     - Summary Reports: A concise description of the major findings from the EDA process, such as correlations, distribution characteristics, missing data, and outliers.
     - Dashboards: Visual summaries for stakeholders, using tools like Tableau or Power BI.
 
 15. Conclusion of EDA
+    
     By the end of the EDA process, you should have:
     - A thorough understanding of the data’s structure, relationships, and quality.
     - Clean and transformed data that is ready for further modeling.
