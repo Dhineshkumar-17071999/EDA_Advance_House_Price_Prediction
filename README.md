@@ -23,7 +23,7 @@
 
 3. Data Cleaning:
     Once the data is imported, it is important to clean it before analysis. Data cleaning refers to the process of handling issues like missing values, incorrect data types, and duplicates.
-    3.1. Handling Missing Data
+    - 3.1. Handling Missing Data
         - Types of Missingness: Missing data can occur in different forms:
             - MCAR: Missing Completely at Random
             - MAR: Missing at Random
@@ -36,11 +36,11 @@
                 - K-Nearest Neighbors (KNN) Imputation: A more advanced technique.
                 - Forward/Backward Fill: For time series data.
     
-    3.2. Handling Duplicates
+    - 3.2. Handling Duplicates
         - Duplicate Rows: Sometimes datasets contain duplicate entries, which need to be removed using:
             - Python: pandas.drop_duplicates()
 
-    3.3. Handling Outliers
+    - 3.3. Handling Outliers
         - Outliers can skew the results of data analysis. Common techniques to detect and handle outliers include:
             - Z-Score: Identifies outliers based on standard deviation.
             - IQR (Interquartile Range): Outliers are typically defined as values 1.5 times above or below the IQR.
