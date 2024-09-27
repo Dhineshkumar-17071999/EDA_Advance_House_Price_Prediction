@@ -13,7 +13,6 @@
     - Data Sources: The data can come from multiple sources such as:
         - Flat files (e.g., CSV, JSON, Excel)
         - Databases (SQL, NoSQL)
-        - Databases (SQL, NoSQL)
         - Pre-existing datasets (Kaggle, UCI repository)
     
     - Tools for Importing: Common tools and libraries used for importing data include:
@@ -60,7 +59,7 @@
     - 4.2. Encoding Categorical Data
         Many machine learning algorithms cannot work with categorical data directly. Methods for encoding include:
         - Label Encoding: Converts categories to numeric labels (e.g., Male = 0, Female = 1).
-        - One-Hot Encoding: Converts categorical variables into multiple binary columns.One-Hot Encoding: Converts categorical variables into multiple binary columns.
+        - One-Hot Encoding: Converts categorical variables into multiple binary columns.
             - Python: pandas.get_dummies()
 
     - 4.3. Binning
